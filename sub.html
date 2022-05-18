@@ -3,7 +3,7 @@
   <meta charset="UTF-8">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ferrano_sub</title>
+    <title>Ferrano</title>
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
     <script src="https://kit.fontawesome.com/f0729c0c03.js" crossorigin="anonymous"></script>
 
@@ -15,237 +15,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display&family=Scheherazade+New:wght@700&display=swap" rel="stylesheet">
     <link href="css/reset.css" rel="stylesheet">
 
-    <style>
+    <link href="css/sub_common_599.css" media ="(max-width:599px)" rel="stylesheet">
+  <link href="css/sub_common_600.css" media ="(min-width:600px) and (max-width:1260px)" rel="stylesheet">
+  <link href="css/sub_common_1260.css" media ="(min-width:1260px)" rel="stylesheet">
+  <link href="css/sub_main_599.css" media ="(max-width:599px)" rel="stylesheet">
+  <link href="css/sub_main_600.css" media ="(min-width:600px) and (max-width:1260px)" rel="stylesheet">
+  <link href="css/sub_main_1260.css" media ="(min-width:1260px)" rel="stylesheet">
 
-
-      * {box-sizing: border-box; margin: 0;padding: 0;}
-      ul,li,ol {list-style: none;margin: 0;padding: 0;}
-
-
-      @media (max-width:599px){
-        /*헤더*/
-        header {width:100%;height:150px;position:absolute;left:0;}
-
-        /*네비*/
-        .navwrapper {width: 100%; display: flex; align-items: center; justify-content:space-between;}
-        #burgerwrapper {width:150px;display:flex; flex-direction:row;flex-wrap: wrap;align-content: center;align-items:center;}
-
-        .logo {width:200px; line-height: 50px; color:#fff; text-align: center;margin:30px 0 0 50px;}
-        .logo a{width:14%; height:50px; font-size:50px;  text-decoration:none; color:#fff;font-family:'Great Vibes';float:left;margin:20px 0 0 0;}
-        .logo a:hover {color:#dba94b; transition:all 0.5s}
-
-        #navmenu1 {width:100%; padding:15px; display:flex; flex-direction:column;text-align:center; background-color:rgb(0, 0, 0,0.7);}
-        #navmenu1 >.home {text-decoration:none; color:#dba94b;font-family: 'Scheherazade New', serif;font-size: 16px;}
-
-
-        #navmenu1 a {width:100%; height:100%;text-decoration:none;color:#fff;font-family: 'Scheherazade New', serif;margin:10px;font-size:16px;}
-        #navmenu1 a:hover {color:#dba94b;}
-        #hamburger {width:40px; height:40px;padding:10px;border:1px solid #fff;border-radius:5px;margin:50px 0 0 0;}
-        #burgerwrapper img:hover {background-color:rgb(255, 255, 255,0.3); cursor:pointer;}
-
-
-        #reserve1, #navmenu,#nav2 {display:none;}
-
-
-        #reserve2 {width:70px; height:50px; border:1px solid #dba94b; border-radius:10px; padding:5px 10px;margin:50px;font-family: 'Scheherazade New', serif;text-decoration: none;margin:50px 0 0 10px;color:#fff;}
-        #reserve2:hover {background-color:#dba94b;color:#fff;}
-
-        /*푸터*/
-        #address {width:100%; height:1450px;float:left;background-image: linear-gradient(rgba(26, 29, 46, 0.95), rgba(26, 29, 46, 0.95)),url(img/background5.jpg);background-size:cover;
-          background-position:0px 0px,50% 20%;background-attachment: scroll, fixed;display:flex;flex-direction:column;}
-        #addresswrapper {width:100%; height:auto;margin:0 auto;float:left;margin:50px 0 0 0 ;}
-        #addressbox {width:100%; height:458px;display:flex; flex-direction:column;align-content:space-between;align-items:center;margin:0 auto;float:left;}
-        #time {width:235px; height:295px; display:flex; flex-direction: column;margin:0 auto;}
-        .time1 {color:#dba94b;font-size:14px;margin:10px;text-align:center;}
-        .open {width:225px; height:20px;background-color:#121521;margin:20px 0 0 0;color:#71818a;text-align:center;}
-        #address1 {width:100%;display: flex; flex-direction: column;margin:700px auto;align-items:center;}
-        .address3 {width:300px;color:#71818a;text-align:center;margin:20px auto;}
-        .address2 {width:100%;color:#dba94b;margin:40px auto;font-size:14px;text-align:center;}
-        .e-mail {width:100%;color:#dba94b;margin:20px auto;font-size:14px;text-align:center;}
-
-
-      }
-
-
-      @media (min-width:600px){
-        /*헤더*/
-        header {width:100%;height:150px;}
-        /*네비*/
-        .navwrapper {width: 100%; display: flex; align-items: center; justify-content:space-between}
-        #burgerwrapper {width:150px;display:flex; flex-direction:row;flex-wrap: wrap;align-content: center;align-items:center;}
-
-        .logo {width: 80px; line-height: 50px; color:#fff; text-align: center;}
-        .logo a{width:14%; height:50px; font-size:50px;  text-decoration:none; color:#fff;font-family:'Great Vibes';float:left;margin:20px 0 0 0;}
-        .logo a:hover {color:#dba94b; transition:all 0.5s}
-        #navmenu1 {width:100%;padding:15px;display:flex; flex-direction:column;text-align:center; background-color:rgb(0, 0, 0,0.7);;margin:20px 0 0 0;}
-        #navmenu1 >.home {text-decoration:none; color:#dba94b;font-family: 'Scheherazade New', serif;font-size: 16px;}
-
-
-        #navmenu1 a {text-decoration:none;color:#fff;font-family: 'Scheherazade New', serif;margin:10px;font-size:16px;}
-        #navmenu1 a:hover {color:#dba94b;}
-        #hamburger {width:20px; height:20px;padding:10px;border:1px solid #fff;border-radius:5px;margin:50px 0 0 0px;}
-        #burgerwrapper img:hover {background-color:rgb(255, 255, 255,0.3); cursor:pointer;}
-        #reserve2 {width:50px; height:30px; border:1px solid #dba94b; border-radius:10px; padding:5px 5px 10px 10px;font-family: 'Scheherazade New', serif;text-decoration: none;margin:50px 0 0 10px;color:#fff;font-size:16px;}
-
-        #reserve1, #navmenu,#nav2 {display:none;}
-
-
-
-        #reserve2:hover {background-color:#dba94b;color:#fff;}
-
-        /*푸터*/
-        #address {width:100%; height:1500px;float:left;background-image: linear-gradient(rgba(26, 29, 46, 0.95), rgba(26, 29, 46, 0.95)),url(img/background5.jpg);background-size:cover;
-          background-position:0px 0px,50% 20%;background-attachment: scroll, fixed;display:flex;flex-direction:column; }
-        #addresswrapper {width:100%; height:auto;margin:50px auto;float:left;}
-        #addressbox {width:100%; height:458px;display:flex; flex-direction:column;margin:0 auto;float:left;}
-        #time {width:100%; height:295px; display:flex; flex-direction: column;align-items: center;}
-        .time1 {color:#dba94b;font-size:16px;margin:10px;}
-        .open {width:225px; height:20px;background-color:#121521;margin:10px 0 0 0;color:#71818a;text-align:center;}
-        #address1 {width:80%;display: flex; flex-direction: column;justify-content:center;align-content:center;align-items:center;margin:800px auto;}
-        .address3 {width:100%;color:#71818a;text-align:left;margin:30px 0 0 0;text-align:center;}
-        .address2 {width:100%;color:#dba94b;margin:40px 0 0 0;font-size:16px;text-align:center;}
-        .e-mail {width:100%;color:#dba94b;margin:30px 0 0 0;font-size:16px;text-align:center;}
-
-      }
-
-      @media(min-width:1260px){
-        /*헤더*/
-        header {width:100%;height:100px;}
-        /*네비*/
-
-        .navwrapper {width: 100%; height:100px;background-color:#181a26;}
-
-        .logo {width: 200px; line-height: 50px; color:#fff; text-align: center;margin:20px 0 0 300px ;background-color:red;}
-        .logo a{ height:50px; font-size:50px;  text-decoration:none; color:#fff;font-family:'Great Vibes';float:left;margin:20px 0 0 0;}
-        .logo a:hover {color:#dba94b; transition:all 0.5s}
-
-        #navv {width:100%;display:flex; justify-content: space-between; background-color:violet;}
-        #navmenu {width:500px; padding:15px;display:flex; flex-direction: row; flex-wrap:wrap;justify-content: space-between;margin:30px 0 0 500px;background-color:blue;}
-        #navmenu >.home {width:50px;text-decoration:none; color:#dba94b;font-family: 'Scheherazade New', serif;font-size: 16px;}
-      
-
-        #navmenu a {text-decoration:none;color:#fff;font-family: 'Scheherazade New', serif;margin:10px;font-size:16px;display:flex; flex-direction:row;}
-        #navmenu a:hover {color:#dba94b;}
-
-
-        #navmenu1,#hamburger,#reserve2 {display: none;}
-
-        
-        #navmenu > #reserve1 {width:80px; height:50px; border:1px solid #dba94b; border-radius:10px; padding:7px 20px 10px 15px;font-family: 'Scheherazade New', serif;
-        margin:-1px;font-size:16px;text-align:center;}
-        #navmenu > #reserve1:hover {background-color:#dba94b;color:#fff;}
-
-        #searchwrapper {width:500px; height:50px;  display: flex; flex-direction: row;flex-wrap: wrap;justify-content: space-evenly;margin: 10px 0 0; background-color: gold;;}
-        .search {width:80px; height:30px; float:left;margin:10px;}
-        .cart {text-decoration:none; font-size:15px; font-family:'Scheherazade New', serif;color:#fff;margin: 10px 0 0 30px;}
-        .texticon {border:none;margin: 5px 100px 0 0; border-radius:20px; }
-        #cartimg {width:30px; height:30px; margin:10px 0 0 0;}
-        #cartimg  a img {width:100%; height:100%;}
-
-        /*서브 슬라이더*/
-        #subslider {width:100%; height:300px; background-image:linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(img/subslide1.jpg); background-size:cover; 
-            background-repeat:no-repeat; background-position:center;background-attachment: scroll, scroll; }
-        .subcontainer {width:400px; height:300px; margin: 0 auto;display:flex; flex-direction:column; justify-content: center; }
-        .sub {color:#dba94b; font-size:24px; text-align: center;font-family:'Great Vibes';margin:10px;}
-        .su {font-size:34px;text-align: center;color:#fff; font-family:Arial, Helvetica, sans-serif;margin:10px;}
-        .p2 {color:#dba94b; font-size:12px; text-align: center;font-family:'Great Vibes';margin:10px;}
-
-        /*서브메인*/
-        #wrap {width:100%; height:auto;}
-        #subbox {width:1260px; height:auto; display:flex; flex-direction:row;margin:0 auto;}
-
-        /*서브메인1*/
-        #contentwrapper {width:100%; height:auto; display:flex;flex-direction:column;}
-        .content{width:780px; height:1050px; }
-        .name {width:780px; height:50px; color:#000; font-family:'Great Vibes';text-align:left; padding:10px;}
-        .date1 {width:780px; height:50px; font-size:12px; color:#ccc;padding:10px;}
-        .imoj {width:780px; height:20px; color:#dba94b; font-size:10px;padding:10px;}
-        .bigimg {width:780px; height:546px; margin:10px 0 0 0 ;}
-        #tag {width:100%; height:50px; display:flex; flex-direction:row;}
-        .tag {font-weight:bold; font-family:Arial, Helvetica, sans-serif;margin:20px 10px 20px 0px;}
-        .tag1 {font-family:Arial, Helvetica, sans-serif;background-color:#ccc; margin:10px;padding:10px;font-style:italic;font-size:12px;color:#666; }
-        .tag1:hover {color:#dba94b;}
-        .content1 {width:100%; height:auto; padding:10px;}
-        #buttonicon {display:flex; flex-direction:row;justify-content:space-between;}
-        .btn5 {width:100px; height:50px;padding:10px;margin:10px 10px 10px 0; border:none; background-color:#dba94b; font-weight: bold; font-size:12px;border-radius:5px;}
-        .btn5:hover {background-color:#181a26; color:#fff;}
-        #iconimo {width:160px; height:45px;display:flex; flex-direction:row;justify-content: space-between;border:1px solid rgb(211, 211, 211);margin:15px;background-color:#eee;}
-        .iconimo1 {width:160px; height:30px; display:flex; flex-direction:row;justify-content: center;margin:10px;}
-        .iconimj {width:20px; height:30px;}
-        .iconimj img {width:15px; height:15px;}
-        .i {font-size:12px;}
-
-        /*서브메인2*/
-        #subcontent {width:100%;height:auto;margin:0 0 0 50px;}
-        .search_a {width:360px; height:80px; background-color:#f9f9f9;display:flex; flex-direction:row; justify-content:center;align-items:center;margin:50px 0 40px 0;}
-        .textbox {width:241px; height:45px;border:1px solid #eee;}
-        .MG {width: 80.55px; height:45px; background-color:#dba94b;border:none;}
-        .MG img {width:20px; height:20px;}
-
-        #sub_cont1 {width:360px; height:460px; }
-        .aboutus {width:360px; height:50px; background-color:#f9f9f9; text-align:center;line-height:50px; }
-        #sub_img {width:360px; height:200px; }
-        #sub_img img{width:360px; height:252px;}
-        #sub_img > .sub_name {width:360px; height:18px;margin:10px 0 10px 0;}
-
-        #sub_cont2 {width:360px; height:340px;margin:50px 0 0 0;}
-        #smallimg {width:360px; height:auto;margin:10px 0 10px 0;display:flex; flex-direction: column;}
-        .smallwrapper {display:flex; flex-direction:row;margin:10px 0 10px 0px;}
-        .small {width:72px; height:50px;}
-        .small img {width:100%; height:100%;}
-        .smalltext {width:100%; height:100%; margin:0 0 0 30px;}
-        .smalltext2 {font-size:12px;}
-        .smalltext3 {font-size:12px; font-weight:bold;}
-
-        #sub_cont3 {width:360px; height: 180px;margin:50px 0 0 0; }
-
-        .btn6 {width:auto; height:35px;margin:20px 0 0 0 ;padding:10px;font-size:12px;border:none; background-color:#dba94b; color:#fff;border-radius:5px;}
-        .btn6:hover {background-color:#181a26;}
-
-        #sub_cont4 {width:360px; height:200px; margin:20px 0 0 0;}
-        #sub_cont4 >  ul > li {display:flex; justify-content: space-between; align-items: center;position:relative;margin:10px 0 0 0;}
-        #sub_cont4 >  ul > li > a {text-decoration:none; color:#000;font-size:14px;}
-        #sub_cont4 > ul > li ::before {content:''; position: absolute; bottom: 0; left: 0; right: 50px; border-top: 1px dotted #ccc;}
-        #sub_cont4 > ul > li > a:hover {color:#dba94b;}
-        #sub_cont4 > ul > li > span {width:20px; height:20px; border-radius:50px; background-color:#dba94b;font-size:14px;text-align:center;}
-
-        #sub_cont5 {width:360px; height:100px;margin:50px 0 0 0;}
-        i {width:25px; height:25px;background-color:#181a26; color:#eee;text-align:center;margin:20px 0 0 0;padding:5px;border-radius:5px;}
-        i:hover {color:#dba94b;}
-        
-
-
-
-
-        /*푸터*/
-        #address {width:100%; height:518px;float:left;background-image: linear-gradient(rgba(26, 29, 46, 0.95), rgba(26, 29, 46, 0.95)),url(img/background5.jpg);background-size:cover;
-          background-position:0px 0px,50% 20%;background-attachment: scroll, fixed;display:flex;justify-content: center;}
-        #addresswrapper {width:100%; height:auto;margin:0 auto;float:left;}
-        #addressbox {width:80%; height:458px;display:flex; flex-direction:row;justify-content: space-between;align-items:flex-start;margin:0 auto;float:left;}
-        #time {width:235px; height:295px; display:flex; flex-direction: column;align-items: flex-start;margin:30px 0 0 20%;position:absolute;}
-        .time1 {color:#dba94b;font-size:16px;margin:10px;}
-        .open {width:225px; height:20px;background-color:#121521;margin:10px 0 0 0;color:#71818a;text-align:center;}
-        #address1 {width:300px;display: flex; flex-direction: column;justify-content:center;align-items: flex-start;margin:0 0 0 65%;position:absolute;}
-        .address3 {width:300px;color:#71818a;text-align:left;margin:30px 0 0 0;}
-        .address2 {color:#dba94b;margin:40px 0 0 0;font-size:16px;}
-        .e-mail {color:#dba94b;margin:30px 0 0 0;font-size:16px;}
-
-      }
-
-
-      /*라이센스*/
-      #power {width:100%; height:auto; background-color:rgba(17, 19, 31, 0.97);;float:left;display:flex; flex-direction:column;justify-content: center;align-items: center;}
-      #license {width:80%; display:flex; flex-direction: row;flex-wrap:wrap;justify-content: center;align-items: center;}
-      .license {color:#fff;font-size: 12px;margin:40px 0 0 0;}
-      .webflow {margin:30px 0 0 10px;}
-      .webflow a{color:#dba94b;font-size:12px;margin:10px;text-decoration:none;margin:40px 0 0 0;}
-      .webflow a:hover {color:#fff;border-bottom: 1px solid #fff;}
-      #webflow {width:100%; display:flex; flex-direction: row;justify-content: center;align-items: center;}
-
-
-
-    </style>
-
+  
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
     <script >
       $(document).ready(function(){
@@ -260,54 +37,42 @@
 
   </head>
   <body>
-<!--헤더-->
-<header>
-    <!--네비-->
-    <div class="navwrapper">
-        <div id="navv">
-      <div class="logo"><a href="#">Ferrado</a></div>
+    <!--헤더-->
+    <header>
+      <!--네비-->
+      <div class="navwrapper">
 
-      <div id="nav1">
-        <div id="navmenu">
-          <a href="#" class="home">HOME</a>
-          <a href="#">ABOUT</a>
-          <a href="#">MENU</a>
-          <a href="#">BLOG</a>
-          <a href="#" id="reserve1">reserve</a>
+        <div class="logo"><a href="index.html" target="self">Ferrado</a></div>
+
+        <div id="nav1">
+          <div id="navmenu">
+            <a href="main.html" target="_self" class="home">HOME</a>
+            <a href="sub.html" target="_self">ABOUT</a>
+            <a href="sub.html" target="_self">MENU</a>
+            <a href="sub.html" target="_self">BLOG</a>
+            <a href="sub.html" target="_self" id="reserve1">reserve</a>
+          </div>
+        </div>
+
+        <div id="burgerwrapper">
+          <img src="img/burger.png"  id="hamburger">
+          <a href="#" id="reserve2">reserve</a>
+        </div>
+
+
+      </div>
+
+      <div id="nav2">
+        <div id="navmenu1">
+          <a href="sub.html" target="_self" class="home">HOME</a>
+          <a href="sub.html" target="_self">ABOUT</a>
+          <a href="sub.html" target="_self">MENU</a>
+          <a href="sub.html" target="_self">BLOG</a>
+
         </div>
       </div>
 
-      <div id="burgerwrapper">
-        <img src="img/burger.png"  id="hamburger">
-        <a href="#" id="reserve2">reserve</a>
-      </div>
-
-      <div id="searchwrapper">
-        <div class="search">
-          <input type="text" class="texticon">
-        </div>
-
-        <a href="#" class="cart">Cart</a>
-        <div id="cartimg"><a href="#"><img src="img/cart.png" alt="cart"></a></div>
-
-      </div>
-    </div>
-
-      
-
-    </div>
-
-    <div id="nav2">
-      <div id="navmenu1">
-        <a href="#">HOME</a>
-        <a href="#">ABOUT</a>
-        <a href="#">MENU</a>
-        <a href="#">BLOG</a>
-
-      </div>
-    </div>
-
-  </header>
+    </header>
     <!--서브슬라이더-->
     <div id="subslider">
       <div class="subcontainer">
@@ -322,178 +87,182 @@
     <section>
       <!--서브-->
       <div id="wrap">
-          <div id ="subbox">
-        <div id="contentwrapper">
-          <div class="content">
-            <h1 class="name">The Secret Ingredient</h1>
-            <p class="date1">May 31, 2020 - Travel Photos</p>
-            <span class="imoj">● ● ●</span>
+        <div id ="subbox">
+          <div id="contentwrapper">
+            <div class="content">
+              <h1 class="name">The Secret Ingredient</h1>
+              <p class="date1">May 31, 2020 - Travel Photos</p>
+              <span class="imoj">● ● ●</span>
 
-            <img src ="img/subimg1.jpg" class="bigimg" alt="img1">
+              <img src ="img/sub10.jpg" class="bigimg" alt="img1">
 
-            <div id="tag">
-              <p class="tag">TAGS :</p>
-              <p class="tag1">Adventure</p>
-              <p class="tag1">Lifestyle</p>
-            </div>
+              <div id="tag">
+                <p class="tag">TAGS :</p>
+                <p class="tag1">Adventure</p>
+                <p class="tag1">Lifestyle</p>
+              </div>
 
-            <p class="content1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor. Proin eu ultrices libero.
-              Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit.
-              Quisque varius eros ac purus dignissim. Proin eu ultrices libero. 
-              Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit. Quisque..</p>
-            <div id="buttonicon">
-              <button class="btn5">Read More</button>
-              <div id="iconimo">
+              <p class="content1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor. Proin eu ultrices libero.
+                Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit.
+                Quisque varius eros ac purus dignissim. Proin eu ultrices libero. 
+                Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit. Quisque..</p>
+              <div id="buttonicon">
+                <button class="btn5">Read More</button>
+                <div id="iconimo">
                   <div class="iconimo1">
-              <div class="iconimj"><img src="img/eye.jpg"></div>
-              <p class=i>384</p>
-            </div>
-            <div class="iconimo1">
-              <div class="iconimj"><img src="img/review.jpg"></div>
-              <p class=i>2</p></div>
-            </div>
-            </div>
-
-          </div>
-
-          <div class="content">
-            <h1 class="name">Pasta Receipt</h1>
-            <p class="date1">May 30, 2020 - Receipts Dishes</p>
-            <span class="imoj">● ● ●</span>
-
-            <img src ="img/subimg2.jpg" class="bigimg" alt="img1">
-
-            <div id="tag">
-              <p class="tag">TAGS :</p>
-              <p class="tag1">Camping</p>
-              <p class="tag1">Outdoor</p>
-            </div>
-            <p class="content1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor. Proin eu ultrices libero. 
-              Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit.
-              Quisque varius eros ac purus dignissim. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. 
-              Suspendisse id neque a nibh mollis blandit. Quisque..</p>
-              <div id="buttonicon">
-                <button class="btn5">Read More</button>
-                <div id="iconimo">
-                    <div class="iconimo1">
-                <div class="iconimj"><img src="img/eye.jpg"></div>
-                <p class=i>384</p>
-              </div>
-              <div class="iconimo1">
-                <div class="iconimj"><img src="img/review.jpg"></div>
-                <p class=i>2</p></div>
-              </div>
-              </div>
-
-          </div>
-
-          <div class="content">
-            <h1 class="name">Jazz Band Bingo</h1>
-            <p class="date1">May 29, 2020 - Seafood Travel</p>
-            <span class="imoj">● ● ●</span>
-
-            <img src ="img/subimg3.jpg" class="bigimg" alt="img1">
-
-            <div id="tag">
-              <p class="tag">TAGS :</p>
-              <p class="tag1">Photos</p>
-              <p class="tag1">Travel</p>
-            </div>
-            <p class="content1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor. 
-              Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit.
-              Quisque varius eros ac purus dignissim. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit. Quisque..</p>
-              <div id="buttonicon">
-                <button class="btn5">Read More</button>
-                <div id="iconimo">
-                    <div class="iconimo1">
-                <div class="iconimj"><img src="img/eye.jpg"></div>
-                <p class=i>384</p>
-              </div>
-              <div class="iconimo1">
-                <div class="iconimj"><img src="img/review.jpg"></div>
-                <p class=i>2</p></div>
-              </div>
-              </div>
-
-          </div>
-
-          <div class="content">
-            <h1 class="name">Burger Big Daddy Receipt</h1>
-            <p class="date1">May 27, 2020 - Receipts Dishes</p>
-            <span class="imoj">● ● ●</span>
-
-            <img src ="img/subimg4.jpg" class="bigimg" alt="img1">
-
-            <div id="tag">
-              <p class="tag">TAGS :</p>
-              <p class="tag1">Adventure</p>
-              <p class="tag1">Trip</p>
-            </div>
-            <p class="content1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor. 
-              Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit.
-              Quisque varius eros ac purus dignissim. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit. Quisque..</p>
-              <div id="buttonicon">
-                <button class="btn5">Read More</button>
-                <div id="iconimo">
-                    <div class="iconimo1">
-                <div class="iconimj"><img src="img/eye.jpg"></div>
-                <p class=i>384</p>
-              </div>
-              <div class="iconimo1">
-                <div class="iconimj"><img src="img/review.jpg"></div>
-                <p class=i>2</p></div>
-              </div>
-              </div>
-          </div>
-        </div>
-        <div id="subcontent">
-          <div class="search_a">
-            <input type="text" class="textbox">
-            <button class="MG"><img src="img/mg.png" alt="MG"></button>
-          </div>
-
-          <div id="sub_cont1">
-            <h3 class="aboutus">About Us</h3>
-
-            <div id="sub_img">
-              <img src="img/sub_img1.jpg" alt="sub_img">
-              <h4 class="sub_name">Piquant restaurant</h4>
-              <p class="sub_text">Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Eaque ipsa quae ab illo inventore veritatis et quasi architecto.</p>
-            </div>
-          </div>
-
-          <div id="sub_cont2">
-            <h3 class="aboutus">Recent Posts</h3>
-
-            <div id="smallimg">
-                <div class="smallwrapper">
-              <div class="small"><img src="img/subimg1.jpg" alt="sub1"></div>
-              <div class="smalltext">
-                <h5 class="smalltext1">The Secret Ingredient</h5>
-                <p class="smalltext2">May 31, 2020</p>
-                <p class="smalltext3">2 Comments</p>
-            </div>
-        </div>
-        <div class="smallwrapper">
-                <div class="small"><img src="img/subimg2.jpg"></div>
-                <div class="smalltext">
-                  <h5 class="smalltext1">Pasta Receipt</h5>
-                  <p class="smalltext2">May 30, 2020</p>
-                  <p class="smalltext3">2 Comments</p>
-                </div>
-          </div>
-       <div class="smallwrapper">
-                  <div class="small"><img src="img/subimg3.jpg"></div>
-                  <div class="smalltext">
-                    <h5 class="smalltext1">Jazz Band Bingo</h5>
-                    <p class="smalltext2">May 29, 2020</p>
-                    <p class="smalltext3">2 Comments</p>
+                    <div class="iconimj"><img src="img/eye.jpg"></div>
+                    <p class=i>384</p>
                   </div>
+                  <div class="iconimo1">
+                    <div class="iconimj"><img src="img/review.jpg"></div>
+                    <p class=i>2</p></div>
                 </div>
-            
+              </div>
+
+            </div>
+
+            <div class="content">
+              <h1 class="name">Chicken Receipt</h1>
+              <p class="date1">May 30, 2020 - Receipts Dishes</p>
+              <span class="imoj">● ● ●</span>
+
+              <img src ="img/sub6.jpg" class="bigimg" alt="img1">
+
+              <div id="tag">
+                <p class="tag">TAGS :</p>
+                <p class="tag1">Camping</p>
+                <p class="tag1">Outdoor</p>
+              </div>
+              <p class="content1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor. Proin eu ultrices libero. 
+                Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit.
+                Quisque varius eros ac purus dignissim. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. 
+                Suspendisse id neque a nibh mollis blandit. Quisque..</p>
+              <div id="buttonicon">
+                <button class="btn5">Read More</button>
+                <div id="iconimo">
+                  <div class="iconimo1">
+                    <div class="iconimj"><img src="img/eye.jpg"></div>
+                    <p class=i>384</p>
+                  </div>
+                  <div class="iconimo1">
+                    <div class="iconimj"><img src="img/review.jpg"></div>
+                    <p class=i>2</p></div>
                 </div>
+              </div>
+
+            </div>
+
+            <div class="content">
+              <h1 class="name">Italian Dinning Guide</h1>
+              <p class="date1">May 29, 2020 - Seafood Travel</p>
+              <span class="imoj">● ● ●</span>
+
+              <img src ="img/sub13.jpg" class="bigimg" alt="img1">
+
+              <div id="tag">
+                <p class="tag">TAGS :</p>
+                <p class="tag1">Photos</p>
+                <p class="tag1">Travel</p>
+              </div>
+              <p class="content1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor. 
+                Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit.
+                Quisque varius eros ac purus dignissim. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit. Quisque..</p>
+              <div id="buttonicon">
+                <button class="btn5">Read More</button>
+                <div id="iconimo">
+                  <div class="iconimo1">
+                    <div class="iconimj"><img src="img/eye.jpg"></div>
+                    <p class=i>384</p>
+                  </div>
+                  <div class="iconimo1">
+                    <div class="iconimj"><img src="img/review.jpg"></div>
+                    <p class=i>2</p></div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="content">
+              <h1 class="name">Pasta Receipt</h1>
+              <p class="date1">May 27, 2020 - Receipts Dishes</p>
+              <span class="imoj">● ● ●</span>
+
+              <img src ="img/sub19.jpg" class="bigimg" alt="img1">
+
+              <div id="tag">
+                <p class="tag">TAGS :</p>
+                <p class="tag1">Adventure</p>
+                <p class="tag1">Trip</p>
+              </div>
+              <p class="content1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor. 
+                Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit.
+                Quisque varius eros ac purus dignissim. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit. Quisque..</p>
+              <div id="buttonicon">
+                <button class="btn5">Read More</button>
+                <div id="iconimo">
+                  <div class="iconimo1">
+                    <div class="iconimj"><img src="img/eye.jpg"></div>
+                    <p class=i>384</p>
+                  </div>
+                  <div class="iconimo1">
+                    <div class="iconimj"><img src="img/review.jpg"></div>
+                    <p class=i>2</p></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="subcontent">
+            <div id ="bigcon">
+              <div class="search_a">
+                <input type="text" class="textbox">
+                <button class="MG"><img src="img/mg.png" alt="MG"></button>
+              </div>
+
+              <div id="sub_cont1">
+                <h3 class="aboutus">About Us</h3>
+
+                <div id="sub_img">
+                  <img src="img/sub20.jpg" alt="sub_img">
+                  <h4 class="sub_name">Ferrado restaurant</h4>
+                  <p class="sub_text">Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Eaque ipsa quae ab illo inventore veritatis et quasi architecto.</p>
+                </div>
+              </div>
+
+              <div id="sub_cont2">
+                <h3 class="aboutus">Recent Posts</h3>
+
+                <div id="smallimg">
+                  <div class="smallwrapper">
+                    <div class="small"><img src="img/sub10.jpg" alt="sub1"></div>
+                    <div class="smalltext">
+                      <h5 class="smalltext1">The Secret Ingredient</h5>
+                      <p class="smalltext2">May 31, 2020</p>
+                      <p class="smalltext3">2 Comments</p>
+                    </div>
+                  </div>
+                  <div class="smallwrapper">
+                    <div class="small"><img src="img/sub19.jpg"></div>
+                    <div class="smalltext">
+                      <h5 class="smalltext1">Pasta Receipt</h5>
+                      <p class="smalltext2">May 30, 2020</p>
+                      <p class="smalltext3">2 Comments</p>
+                    </div>
+                  </div>
+                  <div class="smallwrapper">
+                    <div class="small"><img src="img/sub13.jpg"></div>
+                    <div class="smalltext">
+                      <h5 class="smalltext1">Italian Dinning Guide</h5>
+                      <p class="smalltext2">May 29, 2020</p>
+                      <p class="smalltext3">2 Comments</p>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+
               <div id="sub_cont3">
                 <h3 class="aboutus">Recent Tags</h3>
 
@@ -516,16 +285,16 @@
                   </li>
                   <li class="big"><a href="#">Receipts</a>
                     <span>6</span>
-                </li>
+                  </li>
                   <li ><a href="#">Dishes</a>
                     <span>6</span>
-                </li>
+                  </li>
                   <li ><a href="#">Travel</a>
                     <span>6</span>
-                </li>
+                  </li>
                   <li ><a href="#">Photos</a>
                     <span>3</span>
-                </li>
+                  </li>
 
                 </ul>
 
@@ -534,65 +303,69 @@
               <div id="sub_cont5">
                 <h3 class="aboutus">Social widget</h3>
                 <div class="iconbox">
-                    <i class="fa-brands fa-facebook-f"></i>
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-pinterest"></i>
-                    <i class="fa-brands fa-tumblr"></i>
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                  <i class="fa-brands fa-pinterest"></i>
+                  <i class="fa-brands fa-tumblr"></i>
                 </div>
 
               </div>
-
 
             </div>
 
 
           </div>
+
+
         </div>
-          </section>
 
-        <footer>
-          <div id="address">
-            <div id="addresswrapper">
-              <div id="addressbox">
-                <div id="time">
-                  <h1 class="time1">OPEN HOURS</h1>
-                  <div class="open">Monday.....12am - 10pm</div>
-                  <div class="open">Tuesday.....12am - 10pm</div>
-                  <div class="open">Wednesday.....12am - 10pm</div>
-                  <div class="open">Thursday.....12am - 10pm</div>
-                  <div class="open">Friday.....12am - 10pm</div>
-                  <div class="open">Saturday.....12am - 10pm</div>
-                  <div class="open">Sunday.....12am - 10pm</div>
-                </div>
-                <div id="address1">
-                  <h1 class="address2">OUR ADDRESS</h1>
-                  <p class="address3">Some city, anothe <br>One more city, Some street 12/345 </p>
-                  <h1 class="e-mail">PHONE & EMAIL</h1>
-                  <p class="address3">Call us please: 065 123 456 789 - <br>066 123 456 789</p>
-                  <p class="address3">supportteam@gmail.com <br>
-                    supportteam@yhaoo.com</p>
-                </div>
-              </div>
+      </div>
 
+    </section>
+
+    <footer>
+      <div id="address">
+        <div id="addresswrapper">
+          <div id="addressbox">
+            <div id="time">
+              <h1 class="time1">OPEN HOURS</h1>
+              <div class="open">Monday.....12am - 10pm</div>
+              <div class="open">Tuesday.....12am - 10pm</div>
+              <div class="open">Wednesday.....12am - 10pm</div>
+              <div class="open">Thursday.....12am - 10pm</div>
+              <div class="open">Friday.....12am - 10pm</div>
+              <div class="open">Saturday.....12am - 10pm</div>
+              <div class="open">Sunday.....12am - 10pm</div>
+            </div>
+            <div id="address1">
+              <h1 class="address2">OUR ADDRESS</h1>
+              <p class="address3">Some city, anothe <br>One more city, Some street 12/345 </p>
+              <h1 class="e-mail">PHONE & EMAIL</h1>
+              <p class="address3">Call us please: 065 123 456 789 - <br>066 123 456 789</p>
+              <p class="address3">supportteam@gmail.com <br>
+                supportteam@yhaoo.com</p>
             </div>
           </div>
 
-          <div id="power">
-            <div id="license">
-              <h1 class="license">Powered by</h1>
-              <h2 class="webflow"><a href="#">Webflow</a></h2>
-            </div>
-            <div id="webflow">
-              <h1 class="license">Images used for demonstration purpose only</h1>
-              <h2 class="webflow"><a href="#">(Licenses)</a></h2>  
-            </div>
-            <h2 class="webflow"><a href="#">(Style Guide)</a></h2>
-          </div>
+        </div>
+      </div>
 
-          </div>
+      <div id="power">
+        <div id="license">
+          <h1 class="license">Powered by</h1>
+          <h2 class="webflow"><a href="#">Webflow</a></h2>
+        </div>
+        <div id="webflow">
+          <h1 class="license">Images used for demonstration purpose only</h1>
+          <h2 class="webflow"><a href="#">(Licenses)</a></h2>  
+        </div>
+        <h2 class="webflow"><a href="#">(Style Guide)</a></h2>
+      </div>
 
-        </footer>
+      </div>
 
-      </body>
-    </html>
+    </footer>
+
+  </body>
+</html>
